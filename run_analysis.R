@@ -102,5 +102,5 @@ clean.data = function() {
     # Create tidy dataset
     tidy <- create.tidy.dataset(combined)
     # Write tidy dataset as csv
-    write.csv(tidy, "UCI_HAR_tidy.csv", row.names=FALSE)
+    write.csv(tidy, "tidy.csv", row.names=FALSE)
 }
